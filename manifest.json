@@ -1,0 +1,25 @@
+{
+  "name": "CodeWithMosh Extension - Owsama",
+  "description": "an Extension to use CodeWithMosh website and make the video player more friendly",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "/assets/pics/128.png"
+  },
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "notifications",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "/assets/pics/128.png"
+    }
+  }
+}
