@@ -1,9 +1,10 @@
-# CodeWiithMosh_ChromeExtension
+# CodeWithMosh_ChromeExtension
+
 This is an Extension to use CodeWithMosh website, with buttons to make the course video player themed differently
 
 ---
 
-The icon is a few chalks stacked on top of each other <img src="/assets/pics/CodeWithMosh-ChromeExtensionIcon.png">
+The icon is a few chalks stacked on top of each other <img src="/assets/pics/main-icon.png">
 
 Once clicked you'll see a series of buttons, each calling a JS function that will change the outlook of CodeWithMosh Website. Currently all buttons will only work on the video player page.
 
@@ -11,7 +12,8 @@ Once clicked you'll see a series of buttons, each calling a JS function that wil
 
 ---
 
-When Clicking on the <b><u>video player dark theme</u></b> button, the background colour changes from white to the colour Mosh uses in his VS Code background (this is particularly useful for learning at night where less brightness is friendlier 
+When Clicking on the <b><u>video player dark theme</u></b> button, the background colour changes from white to the colour Mosh uses in his VS Code background (this is particularly useful for learning at night where less brightness is friendlier
+
 <table>
   <tr>
     <td></td>
@@ -26,6 +28,7 @@ When Clicking on the <b><u>video player dark theme</u></b> button, the backgroun
 ---
 
 When Clicking on the <b><u>hide Course SideBar</u></b> & the <b><u>show Course SideBar</u></b> buttons, the course side bar on the left of the page is toggled to either visible or hidden. This is useful when using a split screen setup and you'd like the video to be wider to see more of Mosh's demonstration
+
 <table>
   <tr>
     <td>Visible</td>
