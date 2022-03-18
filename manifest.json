@@ -9,13 +9,7 @@
   "icons": {
     "128": "/assets/pics/main-icon.png"
   },
-  "permissions": [
-    "storage",
-    "unlimitedStorage",
-    "notifications",
-    "activeTab",
-    "scripting"
-  ],
+  "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
