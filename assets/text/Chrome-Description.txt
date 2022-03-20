@@ -1,0 +1,7 @@
+This is an extension built from the frustrations and ideas that an avid programmer had while learning to code.
+
+This extension aims to help you while learning coding and technology related skills by automating mundane tasks, such are; shortcuts, changing a website video player background colour (to dark or light), and hiding & showing elements that can be distracting or just take up too much screen space.
+
+Currently we only support the website called CodeWithMosh, but more websites will be added along as we develop this extension.
+
+Thank you so much for being a user and please feel free to checkout the github repo here https://github.com/owsamahajjar/CodeLearn_ChromeExtension if you have any ideas to share.
