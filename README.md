@@ -8,9 +8,11 @@ The icon is a few chalks stacked on top of each other <img src="/assets/pics/mai
 
 Once clicked you'll see a series of buttons, each calling a JS function that will change the outlook of CodeWithMosh Website. Currently all buttons will only work on the video player page.
 
-<img src="/assets/pics/ChromeExtensionv1.01.png" width=300 height=200>
+<img src="/assets/pics/LearnCode-Home-v0002.png" width=500 height=200>
 
 ---
+
+<img src="/assets/pics/CodeWithMosh-Changes.png" width=500 height=400>
 
 When Clicking on the <b><u>video player dark theme</u></b> button, the background colour changes from white to the colour Mosh uses in his VS Code background (this is particularly useful for learning at night where less brightness is friendlier
 
@@ -40,4 +42,8 @@ When Clicking on the <b><u>hide Course SideBar</u></b> & the <b><u>show Course S
   </tr>
  </table>
  
- ---
+---
+
+On the following page, each button will take you directly to the course stated. Please note that you'll need to have the course in your account and to be logged in.
+
+<img src="/assets/pics/CodeWithMosh-CourseLinks.png" width=500 height=800>
