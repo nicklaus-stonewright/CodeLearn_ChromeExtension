@@ -1,41 +1,37 @@
-// let changeColor = document.getElementById("changeColor");
-
-// chrome.storage.sync.get("color", ({ color }) => {
-//     changeColor.style.backgroundColor = color;
-// });
-
-// // When the button is clicked, inject setPageBackgroundColor into current page
-// changeColor.addEventListener("click", async () => {
-//     let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-
-//     chrome.scripting.executeScript({
-//         target: { tabId: tab.id },
-//         function: setPageBackgroundColor,
-//     });
-// });
-
-// // The body of this function will be executed as a content script inside the current page
-// function setPageBackgroundColor() {
-//     chrome.storage.sync.get("color", ({ color }) => {
-//         document.body.style.backgroundColor = color;
-//     });
-// }
 
 
+//Dark Theme button
+let changeVideoPlayerDarkTheme = document.getElementById("VideoPlayerDarkTheme");
 
-let changeVideoPlayer = document.getElementById("changeVideoPlayer");
-
-function applyBackgroundColour() {
+function applyDarkBackgroundColour() {
     document.querySelector("body > section > div.course-mainbar.lecture-content.full-width-content").style.backgroundColor = "#1d222d";
     document.querySelector("body > section > div.course-mainbar.lecture-content.full-width-content").style.color = "white";
 }
 
-changeVideoPlayer.addEventListener("click", async () => {
+changeVideoPlayerDarkTheme.addEventListener("click", async () => {
     let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
 
     chrome.scripting.executeScript({
         target: { tabId: tab.id },
-        function: applyBackgroundColour,
+        function: applyDarkBackgroundColour,
+    });
+});
+
+
+//Light Theme button
+let changeVideoPlayerLightTheme = document.getElementById("VideoPlayerLightTheme");
+
+function applyLightBackgroundColour() {
+    document.querySelector("body > section > div.course-mainbar.lecture-content.full-width-content").style.backgroundColor = "";
+    document.querySelector("body > section > div.course-mainbar.lecture-content.full-width-content").style.color = "";
+}
+
+changeVideoPlayerLightTheme.addEventListener("click", async () => {
+    let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+
+    chrome.scripting.executeScript({
+        target: { tabId: tab.id },
+        function: applyLightBackgroundColour,
     });
 });
 
