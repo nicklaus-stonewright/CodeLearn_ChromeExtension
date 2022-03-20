@@ -1,6 +1,6 @@
 {
   "name": "CodeLearn Extension",
-  "description": "an Extension to help you in leaning tech skills by offering shortcuts and minor changes to website themes (changing colours and hiding/showing elements) , currently supports CodeWithMosh website",
+  "description": "To help you in learning coding skills by automating shortcuts and changes to website themes & elements.",
   "version": "0.0.0.2",
   "manifest_version": 3,
   "background": {
