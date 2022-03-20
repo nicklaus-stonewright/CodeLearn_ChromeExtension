@@ -1,7 +1,7 @@
 {
-  "name": "CodeWithMosh Extension",
-  "description": "an Extension to use CodeWithMosh website and make the video player more friendly",
-  "version": "0.0.0.1",
+  "name": "CodeLearn Extension",
+  "description": "an Extension to help you in leaning tech skills by offering shortcuts and minor changes to website themes (changing colours and hiding/showing elements) , currently supports CodeWithMosh website",
+  "version": "0.0.0.2",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
