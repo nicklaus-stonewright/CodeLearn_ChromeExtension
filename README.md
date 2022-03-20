@@ -8,13 +8,13 @@ The icon is a few chalks stacked on top of each other <img src="/assets/pics/mai
 
 Once clicked you'll see a series of buttons, each calling a JS function that will change the outlook of CodeWithMosh Website. Currently all buttons will only work on the video player page.
 
-<img src="/assets/pics/LearnCode-Home-v0002.png" width=500 height=200>
+<img src="/assets/pics/LearnCode-Home-v0002.png" width=600 height=200>
 
 ---
 
-<img src="/assets/pics/CodeWithMosh-Changes.png" width=500 height=400>
+<img src="/assets/pics/CodeWithMosh-Changes.png" width=600 height=300>
 
-When Clicking on the <b><u>video player dark theme</u></b> button, the background colour changes from white to the colour Mosh uses in his VS Code background (this is particularly useful for learning at night where less brightness is friendlier
+When Clicking on the <b>video player dark theme</b> & <b>video player light theme</b> button, the background colour changes from white to the colour Mosh uses in his VS Code background (this is particularly useful for learning at night where less brightness is friendlier or vise-versa
 
 <table>
   <tr>
@@ -29,7 +29,7 @@ When Clicking on the <b><u>video player dark theme</u></b> button, the backgroun
 
 ---
 
-When Clicking on the <b><u>hide Course SideBar</u></b> & the <b><u>show Course SideBar</u></b> buttons, the course side bar on the left of the page is toggled to either visible or hidden. This is useful when using a split screen setup and you'd like the video to be wider to see more of Mosh's demonstration
+When Clicking on the <b>Hide course sidebar</b> & the <b>Show course sidebar</b> buttons, the course side bar on the left of the page is toggled to either visible or hidden. This is useful when using a split screen setup and you'd like the video to be wider to see more of Mosh's demonstration
 
 <table>
   <tr>
@@ -46,4 +46,4 @@ When Clicking on the <b><u>hide Course SideBar</u></b> & the <b><u>show Course S
 
 On the following page, each button will take you directly to the course stated. Please note that you'll need to have the course in your account and to be logged in.
 
-<img src="/assets/pics/CodeWithMosh-CourseLinks.png" width=500 height=800>
+<img src="/assets/pics/CodeWithMosh-CourseLinks.png" width=600 height=800>
